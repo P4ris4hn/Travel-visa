@@ -236,6 +236,7 @@ padding-left: 89px;
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
+  flex-wrap: wrap;
 }
 .ellips{
   display: flex;
@@ -260,4 +261,41 @@ padding-left: 89px;
   left: 34px;
   top: 14px;
   width: 59px;
+}
+.ch-us{
+  font-size: 38px;
+  line-height: 60px;
+  color: #111827;
+  text-align: center;
+  font-weight:500;
+}
+.img-op{
+
+}
+.options{
+  font-size: 28px;
+  line-height: 40px;
+  color: #111827;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.ab-opt{
+  font-size: 18px;
+  line-height: 24px;
+  color: #374151;
+  font-weight:400;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.img-op{
+  text-align: center;
+  margin: 0;
+  vertical-align: middle;
+}
+.flx-op{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
 }
