@@ -1,0 +1,257 @@
+
+.logo{
+    width: 100px;
+}
+.menue{
+    font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  font-family: Gilroy;
+  flex-wrap: wrap;
+}
+.menue :hover{
+  font-weight: bold;
+  color:#111827 ;
+}
+a{
+    text-decoration: none;
+    color: #303965;
+  }
+  .Header{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 10px 50px;
+  }
+  .menue .underline{
+    text-decoration: underline;
+    color: #303965;
+  }
+  .Banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+  }
+  .txt-banner {
+    font-family:Gilroy;
+  font-size: 40px;
+  line-height: 60px;
+    color: #000000;
+    margin: 0;
+  padding: 0;
+  }
+  .img-banner{
+    margin-right: 20px;
+    width: 448px;
+    height: 440px;
+  }
+  .img-banner img{
+    width: 458px;
+    height: 440px;
+  }
+  .smltxt-banner{
+    color:#374151;
+    font-size: 20px;
+    margin: 0.5;
+    padding: 0.5;
+  }
+ @font-face {
+  font-family:Gilroy;
+  src: url(/assets/font/Gilroy-FREE/Gilroy-ExtraBold.otf), url(/assets/font/Gilroy-FREE/Gilroy-Light.otf);
+ }
+ .box {
+  width: 204px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #1118271F;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.arrow img {
+  width: 24px;
+  height: 28px;
+  margin:15px;
+padding-left: 89px;
+}
+.txt-box {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 15px;
+}
+.txt-f-t {
+  font-family: Comfortaa;
+  font-size: 15px;
+  line-height: 32.2px;
+  align-items: center;
+  color: #303965;
+}
+.btn{background-color: #303965;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  align-items: center;
+  border: none;
+  margin-top: 6px;
+}
+.btn:hover {
+  color: #303965;
+  border: 2px solid #303965;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.search-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 17px 50px;
+}
+.bold-txt{
+  font-size: 38px;
+  line-height: 60px;
+  color: #111827;
+  text-align: start;
+  font-weight:500;
+  margin: 0;
+  padding: 0;
+}
+.sml-txt{
+  font-size: 18px;
+  line-height: 28px;
+  color: #374151;
+  text-align: start;
+  font-weight:400;
+  margin: 0.5;
+  padding: 0.5;
+}
+
+.ach-column{
+  display: flex;
+  flex-direction: column;
+  padding: 60px 50px;
+  align-items: center;
+  
+}
+.charts{
+  display: flex;
+  position: relative;
+  right: 0%;
+  left: 40%;
+  flex-wrap: wrap;
+}
+.achievements{
+  background-color: #F8FAFC;
+  display: flex;
+  justify-content: flex-start;
+  padding: 28px;
+  flex-wrap: wrap;
+}
+.chart1-4{
+  display: flex;
+  align-items: center;
+  padding-left: 85px;
+  padding-bottom: 35px;
+  flex-wrap: wrap;
+}
+.chart-txt{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title{
+  margin: 0%;
+  font-size: 30px;
+  width: 700;
+  line-height: 45px;
+  color: #111827;
+}
+.about-title{
+  font-size: 14px;
+  line-height: 24px;
+  width: 400;
+  color: #374151;
+}
+.Star{
+  margin-left: 40px;
+  position: absolute;
+  width: 20px;
+}
+.dstn-txt{
+  font-size: 38px;
+  line-height: 60px;
+  color: #111827;
+  text-align: start;
+  font-weight:500;
+  padding: 12px 50px;
+}
+.dstn-img{
+  width: 288px; 
+  height: 186px;
+  position: absolute;
+  right: -16px;
+}
+.flg{
+  width: 42px;
+  height: 32px;
+  border-radius: 2px;
+  left: 7px;
+  bottom: 84px;
+  position: absolute;
+}
+.country{
+  left: 52px;
+  position: absolute;
+  bottom: 74px;
+  color: #111827;
+}
+.l-m{
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+ 
+}
+.learn-box{
+  background-color: #ffffff;
+  border: 2px solid #303965;
+  border-radius: 12px;
+  width:233px ;
+  height: 35px;
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+.box-dstn{
+  width: 256px;
+  height: 298px;
+  border-radius: 12px;
+  border: 2px solid #7C3AED1F;
+  position: relative;
+}
+.Destinations{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+.ellips{
+  display: flex;
+  position: relative;
+}
+.arrow-ellips{
+  display: flex;
+  width: 54px;
+  height: 54px;
+  right: 81px;
+  top: 35px;
+  position: absolute;
+}
+.gray{
+  position: absolute;
+  top: 20px;
+  height: 34px;
+}
+.blue{
+
+}
