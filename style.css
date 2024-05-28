@@ -10,10 +10,11 @@
   align-items: center;
   font-family: Gilroy;
   flex-wrap: wrap;
+  color: #303965;
 }
 .menue :hover{
-  font-weight: bold;
-  color:#111827 ;
+  color:#000000 ;
+  font-size: larger;
 }
 a{
     text-decoration: none;
@@ -159,18 +160,20 @@ padding-left: 89px;
 .chart-txt{
   flex-direction: column;
   align-items: flex-start;
+  padding: 20px;
 }
 .title{
   margin: 0%;
   font-size: 30px;
-  width: 700;
+  width: 100;
   line-height: 45px;
   color: #111827;
 }
 .about-title{
   font-size: 14px;
   line-height: 24px;
-  width: 400;
+  width: 100%;
+  max-width: 400px;
   color: #374151;
 }
 .Star{
@@ -233,7 +236,6 @@ padding-left: 89px;
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
-  flex-wrap: wrap;
 }
 .ellips{
   display: flex;
@@ -246,6 +248,7 @@ padding-left: 89px;
   right: 81px;
   top: 35px;
   position: absolute;
+  flex-wrap: wrap;
 }
 .gray{
   position: absolute;
@@ -253,5 +256,8 @@ padding-left: 89px;
   height: 34px;
 }
 .blue{
-
+  position: relative;
+  left: 34px;
+  top: 14px;
+  width: 59px;
 }
