@@ -138,10 +138,13 @@ padding-left: 89px;
 }
 .charts{
   display: flex;
-  position: relative;
+  /* position: relative; */
   right: 0%;
-  left: 40%;
+  /* left: 66%; */
   flex-wrap: wrap;
+  position: absolute;
+  padding-right: 44px;
+
 }
 .achievements{
   background-color: #F8FAFC;
@@ -298,4 +301,176 @@ padding-left: 89px;
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
+  flex-wrap: wrap;
 }
+.img-work{
+  text-align: center;
+  margin: 0;
+  vertical-align: middle;
+}
+.Work{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+.choose-us{
+  background-color: #F8FAFC;
+  padding-top: 20px;
+  padding-bottom: 72px;
+  
+}
+.img-work img{
+  width: 171px;
+  height: 171px;
+}
+.h-work{
+  font-size: 23.5px;
+  line-height: 40px;
+  color: #111827;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+@media (max-width: 1100px) {
+  .ach-column {
+    padding: 30px 20px;
+    align-items: flex-start;
+  }
+  .charts {
+    position: static; 
+    padding-right: 10;
+    margin-left: auto; 
+  }
+  .achievements {
+    padding: 14px;
+    justify-content: center;
+  }
+  .chart1-4 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .chart-txt {
+    padding: 10px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .about-title {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .Star {
+    margin-left: 29px;
+    width: 15px;
+  }
+}
+.comment-img{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 144px;
+  top: 30px;
+}
+.str-img{
+  position: relative;
+  top: 95px;
+  right: -101px;
+}
+.people{
+  position: relative;
+  top: 169px;
+  text-align: center;
+      line-height: 24px;
+}
+.name{
+  left: 118px;
+    position: absolute;
+    bottom: 74px;
+    color: #303965;
+    top: 118px;
+    font-size: 19px;
+}
+.comma{
+  width: 42px;
+  height: 32px;
+  border-radius: 2px;
+  left: 14px;
+  top: 62px;
+  position: absolute;
+}
+.box-com{
+  width: 341px;
+  height: 298px;
+  border-radius: 12px;
+  border: 2px solid #7C3AED1F;
+  position: relative;
+  background-color: #ffffff;
+}
+.comments{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+.comment-title{
+  font-size: 28px;
+  line-height: 60px;
+  color: #111827;
+  font-weight: 500;
+  margin: auto;
+  padding: 26px;
+}
+.bk-com{
+  background-color: #F8FAFC;
+  padding-top: 20px;
+  padding-bottom: 72px;
+  margin-top: 56px;
+}
+.arrow-ellip{
+  display: flex;
+  width: 54px;
+  height: 54px;
+  top: 35px;
+  position: relative;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.footer-t{
+  font-size: 18px;
+  width: 400px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 10px 50px;
+}
+.footer{
+  background-color: #303965;
+  padding: 10px 50px;
+}
+.white-logo{
+  position: relative;
+  top: 26px;
+  left: -78px;
+}
+.title-f{
+  font-size: 29px;
+  width: 700px;
+}
+.flx-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+    .icons{
+      text-align: center;
+      padding: 15px;
+      margin-right: 20px;
+    }
+    /* mekham fasele bezaram vasat icon ha*/
+    .contact{
+      color: #F8FAFC;
+    }
+   
+ 
