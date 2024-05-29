@@ -1,4 +1,7 @@
-
+.scrool{
+  overflow-x: hidden;
+    overflow-y: auto;
+}
 .logo{
     width: 100px;
 }
@@ -469,5 +472,58 @@ padding-left: 89px;
     .contact{
       color: #F8FAFC;
     }
+    
+@media screen and (max-width: 998px) {
+
+  .menue {
+    display: none;
+  }
+
+}
+    
+@media screen and (max-width: 998px) {
+
+  .logo {
+    position: relative;
+    left: 150px;
+    top: 2px;
+  }
+
+}
+@media screen and (max-width: 998px) {
+
+  .txt-banner {
+    font-size: 30px;
+  }
+.bold-txt{
+  font-size: 30px;
+}
+.dstn-txt{
+  font-size: 25.5px;
+}
+.ch-us{
+  font-size: 25.5px;
+}
+.comment-title{
+  font-size: 25.5px;
+  text-align: center;
+}
+}
+
+@media screen and (min-width: 998px) {
+
+.icone-ham{
+  display: none;
+  
+}
+
+}
+.icone-ham{
+  position: absolute;
+  top: 45px;
+}
+    
+    
+    
    
  
