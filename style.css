@@ -467,6 +467,10 @@ padding-left: 89px;
       text-align: center;
       padding: 15px;
       margin-right: 20px;
+      margin-top: 75px;
+    }
+    .icons img{
+     margin-right: 10px;
     }
     /* mekham fasele bezaram vasat icon ha*/
     .contact{
@@ -521,6 +525,25 @@ padding-left: 89px;
 .icone-ham{
   position: absolute;
   top: 45px;
+}
+.info{
+  color: #F8FAFC;
+  line-height: 35px;
+}
+.category-f{
+  font-size: 25px;
+  width: 400px;
+  color: #ffffff;
+}
+.flx-footer{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  flex-wrap: wrap;
+}
+.logo-footer{
+ margin-top: 20px;
+ line-height: 25px;
 }
     
     
