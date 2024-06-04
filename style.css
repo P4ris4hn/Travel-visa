@@ -9,15 +9,18 @@
     font-size: 18px;
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
+  margin: 0px 16px;
   align-items: center;
   font-family: Gilroy;
   flex-wrap: wrap;
   color: #303965;
+  transition: 0.2s;
 }
 .menue :hover{
   color:#000000 ;
   font-size: larger;
+  transition: 0.2s;
+  
 }
 a{
     text-decoration: none;
@@ -27,10 +30,15 @@ a{
     display: flex;
   flex-wrap: wrap;
   padding: 10px 50px;
+  justify-content: left;
+  
   }
   .menue .underline{
-    text-decoration: underline;
-    color: #303965;
+    border-bottom: 2px solid #303965;
+    margin: 0 52px;
+    padding-bottom: 10px;
+    
+    
   }
   .Banner{
     display: flex;
@@ -141,9 +149,9 @@ padding-left: 89px;
 }
 .charts{
   display: flex;
-  /* position: relative; */
+
   right: 0%;
-  /* left: 66%; */
+  
   flex-wrap: wrap;
   position: absolute;
   padding-right: 44px;
@@ -183,9 +191,8 @@ padding-left: 89px;
   color: #374151;
 }
 .Star{
-  margin-left: 40px;
-  position: absolute;
-  width: 20px;
+  margin-left: 35px;
+  width: 15px;
 }
 .dstn-txt{
   font-size: 38px;
@@ -198,28 +205,19 @@ padding-left: 89px;
 .dstn-img{
   width: 288px; 
   height: 186px;
-  position: absolute;
-  right: -16px;
+  
 }
 .flg{
-  width: 42px;
-  height: 32px;
-  border-radius: 2px;
-  left: 7px;
-  bottom: 84px;
-  position: absolute;
+  margin-left: 15px;
 }
 .country{
-  left: 52px;
-  position: absolute;
-  bottom: 74px;
+  margin-left: 83px;
+  margin-top: -29px;
   color: #111827;
 }
-.l-m{
-  position: absolute;
-  bottom: 10px;
-  left: 75px;
- 
+.l-m {
+  margin-left: 74px;
+  /* من هرکاری میکنم متن لرن مور پایین تر; */
 }
 .learn-box{
   background-color: #ffffff;
@@ -227,12 +225,10 @@ padding-left: 89px;
   border-radius: 12px;
   width:233px ;
   height: 35px;
-  position: absolute;
-  bottom: 18px;
-  left: 10px;
+  margin-left: 20px;
 }
 .box-dstn{
-  width: 256px;
+
   height: 298px;
   border-radius: 12px;
   border: 2px solid #7C3AED1F;
@@ -368,29 +364,22 @@ padding-left: 89px;
   }
 }
 .comment-img{
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  right: 144px;
-  top: 30px;
+  margin-left: 144px;
+  margin-top: 23px;
+ 
 }
 .str-img{
-  position: relative;
-  top: 95px;
-  right: -101px;
+  padding-left: 108px;
+  padding-top: 32px;
 }
 .people{
-  position: relative;
-  top: 169px;
   text-align: center;
-      line-height: 24px;
+  line-height: 24px;
 }
 .name{
-  left: 118px;
-    position: absolute;
-    bottom: 74px;
+  margin-left: 115px;
     color: #303965;
-    top: 118px;
+   
     font-size: 19px;
 }
 .comma{
@@ -450,11 +439,6 @@ padding-left: 89px;
   padding: 10px 50px;
   padding-top: 42px;
 }
-.white-logo{
-  position: relative;
-  top: 26px;
-  left: -78px;
-}
 .title-f{
   font-size: 29px;
   width: 700px;
@@ -473,30 +457,28 @@ padding-left: 89px;
     .icons img{
      margin-right: 10px;
     }
-    /* mekham fasele bezaram vasat icon ha*/
+    
     .contact{
       color: #F8FAFC;
     }
     
 @media screen and (max-width: 998px) {
 
-  .menue {
-    display: none;
-  }
+  
 
 }
     
 @media screen and (max-width: 998px) {
 
-  .logo {
-    position: relative;
-    left: 150px;
-    top: 2px;
+  .menue {
+    display: none;
   }
+  
 
-}
-@media screen and (max-width: 998px) {
-
+  .logo {
+    margin-left: 250px;
+  }
+  
   .txt-banner {
     font-size: 30px;
   }
@@ -513,6 +495,7 @@ padding-left: 89px;
   font-size: 25.5px;
   text-align: center;
 }
+
 }
 
 @media screen and (min-width: 998px) {
@@ -520,12 +503,12 @@ padding-left: 89px;
 .icone-ham{
   display: none;
   
+  
 }
 
 }
 .icone-ham{
-  position: absolute;
-  top: 45px;
+margin-top: 20px;
 }
 .info{
   color: #F8FAFC;
@@ -545,6 +528,14 @@ padding-left: 89px;
 .logo-footer{
  margin-top: 20px;
  line-height: 25px;
+}
+.btn{
+  
+  margin-right: 50px;
+}
+.category-f{
+  width: 100%;
+  
 }
     
     
