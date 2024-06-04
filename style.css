@@ -100,6 +100,7 @@ padding-left: 89px;
   line-height: 32.2px;
   align-items: center;
   color: #303965;
+  margin-bottom: 123px;
 }
 .btn{background-color: #303965;
   color: white;
@@ -328,15 +329,46 @@ padding-left: 89px;
   padding: 10px;
   margin: 0;
 }
+
 @media (max-width: 1100px) {
   .ach-column {
     padding: 30px 20px;
     align-items: flex-start;
   }
+ 
+  
+  .box-dstn{
+    margin-top: 20px;
+    margin-left: 53px;
+
+  }
+  .ch-op{
+    margin-bottom: 30px;
+    margin-left: 43px;
+  }
+  .wrk{
+    margin-bottom: 30px;
+    margin-left: 43px;
+  }
+  .box-com{
+    margin-bottom: 30px;
+  }
+  .box{
+    width: 100%;
+    margin-top: -10px;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .arrow img{
+    margin-left: 150px;
+  
+    padding-bottom: 102px;
+  }
+  
+ 
   .charts {
+
     position: static; 
-    padding-right: 10;
-    margin-left: auto; 
   }
   .achievements {
     padding: 14px;
@@ -462,13 +494,22 @@ padding-left: 89px;
       color: #F8FAFC;
     }
     
-@media screen and (max-width: 998px) {
-
-  
-
-}
     
 @media screen and (max-width: 998px) {
+
+  .btn{
+    width: 280px;
+    
+    
+
+  }
+ 
+  .img-banner{
+    width: 100%!important;
+  }
+  .img-banner img{
+    width: 100%!important;
+  }
 
   .menue {
     display: none;
@@ -478,7 +519,7 @@ padding-left: 89px;
   .logo {
     margin-left: 250px;
   }
-  
+
   .txt-banner {
     font-size: 30px;
   }
@@ -502,8 +543,6 @@ padding-left: 89px;
 
 .icone-ham{
   display: none;
-  
-  
 }
 
 }
@@ -536,6 +575,21 @@ margin-top: 20px;
 .category-f{
   width: 100%;
   
+}
+
+
+@media screen and (max-width: 998px){
+  .arrow img{
+    margin-left: 150px;
+    margin-top: 17px;
+    padding-bottom: 102px;
+  }
+  @media screen and (max-width: 464px){
+    .arrow img{
+      margin-top: -50px;
+    }
+ 
+}
 }
     
     
