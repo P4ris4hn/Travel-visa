@@ -497,6 +497,12 @@ padding-left: 89px;
     
 @media screen and (max-width: 998px) {
 
+
+  .Header{
+    justify-content: space-between;
+  }
+
+
   .btn{
     width: 280px;
     
@@ -516,9 +522,9 @@ padding-left: 89px;
   }
   
 
-  .logo {
+  /* .logo {
     margin-left: 250px;
-  }
+  } */
 
   .txt-banner {
     font-size: 30px;
